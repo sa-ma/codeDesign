@@ -1,0 +1,181 @@
+html,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box !important;
+}
+:root {
+  --primary-color: #1205a9;
+  --secondary-color: #ececff;
+}
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+/* Navigation */
+header.top-header {
+  background-color: var(--secondary-color);
+  box-shadow: 0.33333rem 0 1.33333rem rgba(87, 87, 87, 0.1);
+}
+
+.top-header .nav-link {
+  color: rgba(0, 0, 0, 0.7);
+  font-weight: bold;
+  font-size: 18px;
+}
+.top-header .nav-link:hover,
+.active {
+  color: var(--primary-color) !important;
+}
+/* Hero Section */
+.hero {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+/* .hero h1 {
+  font-size: calc(4em + 1vw);
+} */
+.hero .btn-join,
+.code-benefits .btn-donate,
+.graduates .btn-learn {
+  background-color: var(--primary-color);
+}
+
+/* Features */
+.features {
+  background: url('./../images/feature.png') no-repeat;
+  background-size: cover;
+  padding-top: 150px !important;
+}
+.features-col {
+  background: #ffffff;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.25);
+}
+.features-col h3 {
+  color: #000;
+}
+.features-col p {
+  color: rgba(65, 49, 253, 0.7);
+}
+.white-bg {
+  background-color: #fff !important;
+  background-image: none;
+}
+/* Code and Design Section */
+.code-benefits .sub-benefits {
+  color: var(--primary-color);
+}
+.code-benefits-list {
+  list-style-image: url('./../images/Star.svg');
+}
+.code-benefits li {
+  padding: 10px;
+  font-weight: bold;
+}
+
+/* Countdown Timer */
+section.countdown-timer {
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.7) 41.72%,
+      rgba(108, 99, 255, 0.7) 114.77%
+    )
+    no-repeat;
+}
+section.countdown-timer h3,
+.partner-form h4,
+.partners h1,
+.graduates h1 {
+  color: var(--primary-color);
+  font-weight: 900 !important;
+}
+/* Partners Form */
+.partner-form {
+  background: url('./../images/partner_bg.png') #e5e5e5 no-repeat;
+  background-size: cover;
+}
+.partner-form form {
+  border: 5px solid var(--primary-color);
+}
+.partner-form input {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+  outline: none;
+}
+.partner-form button {
+  background: transparent;
+  border: none;
+  left: 63%;
+  margin-top: 5.5em;
+}
+/* Partners */
+.partners img {
+  object-fit: none;
+}
+/* Graduates */
+.btn-learn {
+  padding: 0.5rem 4rem;
+}
+/* Subscription form */
+.subscription-form {
+  background: var(--secondary-color);
+}
+.subscription-form h1,
+.subscription-form p {
+  color: var(--primary-color);
+}
+.subscription-form input {
+  padding: 10px;
+  border: none;
+  border-radius: 100px 0 0 100px;
+  margin-right: 0;
+  outline: none;
+}
+.subscription-form button {
+  border: none;
+  border-radius: 0 100px 100px 0;
+  padding: 10px 30px 10px 50px;
+  background: var(--primary-color);
+  box-shadow: 0px 4px 30px rgba(18, 5, 169, 0.5);
+  margin-left: -5px;
+}
+/* Footer */
+
+footer,
+footer a,
+footer a:hover {
+  color: var(--primary-color);
+}
+.footer-list {
+  list-style: none;
+}
+.footer-list a:hover,
+.footer-info:hover {
+  color: var(--primary-color);
+}
+.footer-social a {
+  border: 1px solid var(--primary-color);
+  border-radius: 50%;
+  padding: 4px 8px;
+  margin-right: 4px;
+}
+.footer-social a:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+@media (max-width: 576px) {
+  .features,
+  .partner-form {
+    background-image: none;
+  }
+  .partner-form form {
+    width: 80% !important;
+  }
+  .subscription-form p {
+    width: 100% !important ;
+  }
+  .subscription-form button {
+    padding: 10px 30px 10px 10px !important;
+  }
+}
