@@ -12,8 +12,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!--Custom CSS  -->
-    <link rel="stylesheet" href="/assets/style/style.css">
-    <title>Code & Design | Mentor</title>
+    <link rel="stylesheet" href="/assets/style/learner.css">
+    <title>Code & Design | Learners</title>
     <link rel="icon" href="/assets/images/logoCropped.jpg" type="image/jpg" sizes="16x16">
 </head>
 
@@ -38,8 +38,8 @@
                                 Join
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="/pages/join_mentor.html" style="color: #1205A9;font-weight: bold"> Mentor</a>
-                                <a class="dropdown-item" href="/pages/join_learners.html">Learner</a>
+                                <a class="dropdown-item" href="/pages/join_mentor.html"> Mentor</a>
+                                <a class="dropdown-item" href="#" style="color: #1205A9;font-weight: bold">Learner</a>
                             </div>
                         </li>
 
@@ -64,15 +64,10 @@
             </nav>
         </header>
         <div class="landingContent">
-
             <div class="contentLeft">
-                <img src="/assets/images/img1.png" alt="img1">
-            </div>
-
-            <div class="contentRight">
                 <div class="card">
                     <form>
-                        <h1 style="text-align: center;color: #1205A9;font-size: 36px;font-weight: bold">Mentor</h1>
+                        <h1 style="text-align: center;color: #1205A9;font-size: 36px;font-weight: bold">Learner</h1>
                         <div class="form-group">
                             <input type="text" class="form-control" id="exampleFormControlInput1"
                                 placeholder="Full name">
@@ -90,9 +85,13 @@
                             </select>
                         </div>
                         <div class="form-group">
-                            <input type="number" class="form-control" id="exampleFormControlInput1"
-                                placeholder="How many Hours can you spend">
+                            <select class="form-control" id="exampleFormControlSelect1" style="font-weight: bold">
+                                <option value="">Age range</option>
+                                <option value="1">0-18</option>
+                                <option value="2">19-24</option>
+                            </select>
                         </div>
+
                         <div class="form-group">
                             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
                                 placeholder="Why do you want to join us at Code & Design"></textarea>
@@ -101,9 +100,14 @@
                     </form>
                 </div>
 
-            </div>
 
+            </div>
+            <div class="contentRight">
+                <img src="/assets/images/img2.png" alt="img1" width="480px" height="317px"
+                    style="padding-left: 20px;padding-right: 20px">
+            </div>
         </div>
+
     </div>
     <footer class="row w-100 px-5">
         <div class="row  my-5 w-100">
