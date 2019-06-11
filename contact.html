@@ -11,16 +11,16 @@
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!--Custom CSS  -->
-    <link rel="stylesheet" href="./assets/style/style.css">
-    <title>Code & Design | Learners</title>
-    <link rel="icon" href="./assets/images/logoCropped.jpg" type="image/jpg" sizes="16x16">
+    <link rel="stylesheet" href="/assets/style/style.css">
+    <title>Code & Design | Mentor</title>
+    <link rel="icon" href="/assets/images/logoCropped.jpg" type="image/jpg" sizes="16x16">
 </head>
 
 <body>
     <div class="container-fluid p-0">
         <header class="top-header w-100 p-2">
             <nav class="navbar navbar-expand-lg">
-                <a class="navbar-brand" href="#"><img src="./assets/images/logo.svg" alt="Code and Design" /></a>
+                <a class="navbar-brand" href="#"><img src="assets/images/logo.svg" alt="Code and Design" /></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
         </button>
@@ -30,17 +30,20 @@
                             <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Join
               </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="/join_mentor.html"> Mentor</a>
-                                <a class="dropdown-item" href="/join_learners.html" style="color: #1205A9;font-weight: bold">Learner</a>
+                                <a class="dropdown-item" href="/join_mentor.html">Mentor</a>
+                                <a class="dropdown-item" href="/join_learners.html">Learner</a>
                             </div>
                         </li>
 
                         <li class="nav-item">
                             <a class="nav-link" href="#">Donate</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="/contact.html">Contact Us</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">About Us</a>
@@ -51,52 +54,53 @@
                         <li class="nav-item">
                             <a class="nav-link" href="#">Blog</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/contact.html">Contact Us</a>
-                        </li>
+
 
                     </ul>
                 </div>
             </nav>
         </header>
-        <div class="row mx-0  py-5 join-mentor">
-            <div class="col d-flex justify-content-center">
-                <div class="card w-100 px-4 justify-content-center">
-                    <form class="mentor-form">
-                        <h1 class="text-center">Learner</h1>
-                        <div class="form-group">
-                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Full name">
-                        </div>
-                        <div class="form-group">
-                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email">
-                        </div>
-                        <div class="form-group">
-                            <select class="form-control" id="exampleFormControlSelect1" style="font-weight: bold">
-                <option value="">Stack</option>
-                <option value="1">Front-end Developer</option>
-                <option value="2">Back-end Developer</option>
-                <option value="3">Android Developer</option>
-                <option value="4">Dev-ops</option>
-              </select>
-                        </div>
-                        <div class="form-group">
-                            <select class="form-control" id="exampleFormControlSelect1" style="font-weight: bold">
-                <option value="">Age range</option>
-                <option value="1">0-18</option>
-                <option value="2">19-24</option>
-              </select>
-                        </div>
-
-                        <div class="form-group">
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Why do you want to join us at Code & Design"></textarea>
-                        </div>
-                        <button class="btn btn-large button btn-join">Join</button>
-                    </form>
+        <section id="intro" class="clearfix">
+            <div class="container">
+                <div class="intro-info">
+                    <h2>Contact Us</h2>
+                    <p>Ask us anything and we will guide you to your dreams</p>
                 </div>
             </div>
-            <div class="col mentor-image-area">
-                <img src="./assets/images/img2.png" alt="img1" class="w-100">
+        </section>
+        <div class="row mx-0  py-5 contact">
+            <div class="col contact-image-area">
+                <img src="/assets/images/con.png" alt="img1" class=" w-100">
+                <h6>Phone</h6>
+                <ul>
+                    <li>+234 2222 222</li>
+                    <li>+234 2222 222</li>
+                    <li>+234 2222 222</li>
+                    <li>+234 2222 222</li>
+                </ul>
             </div>
+            <div class="col d-flex justify-content-center">
+                <div class="card w-100 px-4 justify-content-center">
+                    <form class="contact-form">
+                        <h1 class="text-center">Send us a message</h1>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Phone Number">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Email Address">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your Message"></textarea>
+                        </div>
+                        <button class="btn btn-large button btn-join">GET IN TOUCH</button>
+                    </form>
+                </div>
+
+            </div>
+
         </div>
         <footer class="row w-100 px-5">
             <div class="row  my-5 w-100">
