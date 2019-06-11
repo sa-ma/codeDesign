@@ -405,3 +405,61 @@ footer a:hover {
     color: white;
     text-decoration: none;
 }
+
+.accordion-toggle:hover {
+    text-decoration: none;
+}
+
+
+/* FAQ */
+
+.so {
+    background: #ECECFF
+}
+
+.accordion-section .panel-default>.panel-heading {
+    border: 0;
+    background: #1205A9;
+    padding: 0;
+    border-radius: 5px;
+}
+
+.accordion-section .panel-default .panel-title a {
+    display: block;
+    font-family: Nunito;
+    font-style: normal;
+    font-size: 16px;
+    color: #fff;
+}
+
+.accordion-section .panel-default .panel-title a:after h1 {
+    font-family: 'FontAwesome';
+    font-style: normal;
+    font-size: 3rem;
+    content: "\f106";
+    color: #fff;
+    float: right;
+    margin-top: -12px;
+    background: url(/assets/images/)
+}
+
+.accordion-section .panel-default .panel-title a.collapsed:after {
+    content: "\f107";
+}
+
+.accordion-section .panel-default .panel-body {
+    font-size: 16px;
+    background: #fff;
+    height: 30%;
+    border-radius: 9px
+}
+
+.accordion-section .panel-default .panel-body h5 {
+    font-size: 18px;
+    color: #1205A9;
+    font-weight: bold;
+    padding-top: 20px
+}
+
+
+/* FAQ */
