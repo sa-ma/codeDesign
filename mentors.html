@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/e234a2afd2.js"></script>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!--Custom CSS  -->
+  <link rel="stylesheet" href="./assets/style/style.css">
+  <title>Mentors</title>
+  <style>
+    .mentor-header img {
+      position: absolute;
+      z-index: -1;
+    }
+
+    .mentor-header h1 {
+      font-family: 'Nunito';
+      font-style: normal;
+      font-weight: bold;
+      font-size: 36px;
+      line-height: 49px;
+      color: #F2F2F2;
+      padding-top: 92px;
+    }
+
+    .mentor-header p {
+      font-family: 'Nunito';
+      font-style: normal;
+      font-weight: 900;
+      font-size: 18px;
+      line-height: 25px;
+      color: #F2F2F2;
+    }
+
+    .mentor-img {
+      margin: 0 auto;
+      margin-top: -70px;
+      width: 150px;
+      height: 150px;
+      position: relative;
+    }
+
+    .btn-style {
+      background: #1205A9;
+      border-radius: 100px;
+      color: #ffffff;
+      font-family: 'Nunito', sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 19px;
+    }
+
+    .btn-style:hover {
+      color: #E5E5E5;
+    }
+
+    .mentor-name {
+      font-family: 'Nunito', sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 25px;
+      margin-bottom: 3px;
+    }
+
+    .mentor-stack {
+      font-family: 'Nunito', sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 14px;
+      line-height: 19px;
+      margin-bottom: 20px;
+    }
+
+    .mentor-info {
+      font-family: 'Nunito', sans-serif;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 14px;
+      line-height: 19px;
+      margin-bottom: 35px;
+    }
+
+    .mentor-card {
+      height: 401px;
+      width: 319px;
+      margin-left: 9px;
+      margin-right: 10px;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    }
+
+    .card-footer li {
+
+      float: left;
+      padding-right: 3%;
+      padding-left: 3%;
+    }
+
+    .card-footer {
+      list-style-type: none;
+      bottom: -5px;
+      margin-bottom: 0px;
+      border: none;
+      background: transparent;
+      position: relative;
+      z-index: 1;
+    }
+
+    .mentor-h3 {
+      margin-bottom: 0px;
+      padding-top: 77px;
+      padding-bottom: 152px;
+      padding-left: 39px;
+      font-family: 'Nunito', sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 33px;
+    }
+
+    .mentor-partners>div.row {
+      padding-bottom: 126px;
+    }
+
+
+    .mentor-partners>p {
+      font-family: 'Nunito', sans-serif;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 36px;
+      line-height: 49px;
+      color: #1205A9;
+      padding-top: 173px;
+      padding-bottom: 90px;
+      margin-bottom: 0px;
+    }
+
+    .main-color {
+      background: #ECECFF;
+    }
+
+    footer {
+      background: #fff;
+    }
+
+    .row {
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+  </style>
+</head>
+
+<body class="main-color">
+  <div class="container-fluid p-0">
+    <header class="top-header w-100">
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#"><img src="assets/images/logo.svg" alt="Code and Design" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+        </button>
+        <div class="flex-xl-row justify-content-end collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <!-- <li class="nav-item ">
+                  <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                </li> -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Join
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Mentor</a>
+                <a class="dropdown-item" href="#">Learner</a>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Donate</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Faq's</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="w-100 mentor-header">
+      <img src="./assets/images/mentor-top-background.svg" alt="mentor-top-background">
+      <div class="text-center">
+        <h1>Our Mentors</h1>
+        <p>Volunteers from all around the world</p>
+      </div>
+    </div>
+    <div>
+      <h3 class="mentor-h3">Web Developers</h3>
+      <div class="card-group">
+        <div class="card border-0 mentor-card text-center" style="margin-left: 43px;">
+          <img style="position: relative; z-index: 1;" class="card-img-top rounded-circle mentor-img"
+            src="/assets/images/mentor.png" alt="Mentor Name">
+          <div class="card-body">
+            <h4 class="card-title mentor-name">Flora Ojukwu</h4>
+            <label class="mentor-stack">Flutter, Jango, Android Developer</label>
+            <p class="card-text mentor-info">
+              "Hey! I am a team player and also open to freelance Jobs."</p>
+            <button type="button" class="btn btn-style btn-lg btn-block">Contact me</button>
+          </div>
+          <img src="/assets/images/card-footer.svg" alt="card-footer"
+            style="position: absolute; bottom: 0px; width: 100%; z-index: 1;">
+          <ul class="card-footer">
+            <li><a href="#1"><img src="/assets/images/twitter.svg" alt="Github"></a></li>
+            <li><a href="#2"><img src="/assets/images/linkedin.png" alt="Github"></a></li>
+            <li><a href="#3"><img src="/assets/images/email.png" alt="Github"></a></li>
+            <li style="padding-right: 0px;"><a href="#4"><img src="/assets/images/github.png" alt="Github"></a></li>
+          </ul>
+        </div>
+        <div class="card border-0 mentor-card text-center" style="margin-left: 43px;">
+          <img style="position: relative; z-index: 1;" class="rounded-circle mentor-img" src="/assets/images/mentor.svg"
+            alt="Mentor Name">
+          <div class="card-body">
+            <h4 class="card-title mentor-name">Flora Ojukwu</h4>
+            <label class="mentor-stack">Flutter, Jango, Android Developer</label>
+            <p class="card-text mentor-info">
+              "Hey! I am a team player and also open to freelance Jobs."</p>
+            <button type="button" class="btn btn-style btn-lg btn-block">Contact me</button>
+          </div>
+          <img src="/assets/images/card-footer.svg" alt="card-footer"
+            style="position: absolute; bottom: 0px; width: 100%; z-index: 1;">
+          <ul class="card-footer">
+            <li><a href="#1"><img src="/assets/images/twitter.svg" alt="Github"></a></li>
+            <li><a href="#2"><img src="/assets/images/linkedin.png" alt="Github"></a></li>
+            <li><a href="#3"><img src="/assets/images/email.png" alt="Github"></a></li>
+            <li style="padding-right: 0px;"><a href="#4"><img src="/assets/images/github.png" alt="Github"></a></li>
+          </ul>
+        </div>
+        <div class="card border-0 mentor-card text-center" style="margin-left: 43px;">
+          <img style="position: relative; z-index: 1;" class="rounded-circle mentor-img" src="/assets/images/mentor.svg"
+            alt="Mentor Name">
+          <div class="card-body">
+            <h4 class="card-title mentor-name">Flora Ojukwu</h4>
+            <label class="mentor-stack">Flutter, Jango, Android Developer</label>
+            <p class="card-text mentor-info">
+              "Hey! I am a team player and also open to freelance Jobs."</p>
+            <button type="button" class="btn btn-style btn-lg btn-block">Contact me</button>
+          </div>
+          <img src="/assets/images/card-footer.svg" alt="card-footer"
+            style="position: absolute; bottom: 0px; width: 100%; z-index: 1;">
+          <ul class="card-footer">
+            <li><a href="#1"><img src="/assets/images/twitter.svg" alt="Github"></a></li>
+            <li><a href="#2"><img src="/assets/images/linkedin.png" alt="Github"></a></li>
+            <li><a href="#3"><img src="/assets/images/email.png" alt="Github"></a></li>
+            <li style="padding-right: 0px;"><a href="#4"><img src="/assets/images/github.png" alt="Github"></a></li>
+          </ul>
+        </div>
+        <div class="card border-0 mentor-card text-center" style="margin-left: 43px;">
+          <img style="position: relative; z-index: 1;" class="rounded-circle mentor-img" src="/assets/images/mentor.svg"
+            alt="Mentor Name">
+          <div class="card-body">
+            <h4 class="card-title mentor-name">Flora Ojukwu</h4>
+            <label class="mentor-stack">Flutter, Jango, Android Developer</label>
+            <p class="card-text mentor-info">
+              "Hey! I am a team player and also open to freelance Jobs."</p>
+            <button type="button" class="btn btn-style btn-lg btn-block">Contact me</button>
+          </div>
+          <img src="/assets/images/card-footer.svg" alt="card-footer"
+            style="position: absolute; bottom: 0px; width: 100%; z-index: 1;">
+          <ul class="card-footer">
+            <li><a href="#1"><img src="/assets/images/twitter.svg" alt="Github"></a></li>
+            <li><a href="#2"><img src="/assets/images/linkedin.png" alt="Github"></a></li>
+            <li><a href="#3"><img src="/assets/images/email.png" alt="Github"></a></li>
+            <li style="padding-right: 0px;"><a href="#4"><img src="/assets/images/github.png" alt="Github"></a></li>
+          </ul>
+        </div>
+      </div>
+      <h3 class="mentor-h3">Mobile Developers</h3>
+      <div class="card-group">
+        <div class="card border-0 mentor-card text-center" style="margin-left: 43px;">
+          <img style="position: relative; z-index: 1;" class="card-img-top rounded-circle mentor-img"
+            src="/assets/images/mentor.png" alt="Mentor Name">
+          <div class="card-body">
+            <h4 class="card-title mentor-name">Flora Ojukwu</h4>
+            <label class="mentor-stack">Flutter, Jango, Android Developer</label>
+            <p class="card-text mentor-info">
+              "Hey! I am a team player and also open to freelance Jobs."</p>
+            <button type="button" class="btn btn-style btn-lg btn-block">Contact me</button>
+          </div>
+          <img src="/assets/images/card-footer.svg" alt="card-footer"
+            style="position: absolute; bottom: 0px; width: 100%; z-index: 1;">
+          <ul class="card-footer">
+            <li><a href="#1"><img src="/assets/images/twitter.svg" alt="Github"></a></li>
+            <li><a href="#2"><img src="/assets/images/linkedin.png" alt="Github"></a></li>
+            <li><a href="#3"><img src="/assets/images/email.png" alt="Github"></a></li>
+            <li style="padding-right: 0px;"><a href="#4"><img src="/assets/images/github.png" alt="Github"></a></li>
+          </ul>
+        </div>
+        <div class="card border-0 mentor-card text-center" style="margin-left: 43px;">
+          <img style="position: relative; z-index: 1;" class="rounded-circle mentor-img" src="/assets/images/mentor.svg"
+            alt="Mentor Name">
+          <div class="card-body">
+            <h4 class="card-title mentor-name">Flora Ojukwu</h4>
+            <label class="mentor-stack">Flutter, Jango, Android Developer</label>
+            <p class="card-text mentor-info">
+              "Hey! I am a team player and also open to freelance Jobs."</p>
+            <button type="button" class="btn btn-style btn-lg btn-block">Contact me</button>
+          </div>
+          <img src="/assets/images/card-footer.svg" alt="card-footer"
+            style="position: absolute; bottom: 0px; width: 100%; z-index: 1;">
+          <ul class="card-footer">
+            <li><a href="#1"><img src="/assets/images/twitter.svg" alt="Github"></a></li>
+            <li><a href="#2"><img src="/assets/images/linkedin.png" alt="Github"></a></li>
+            <li><a href="#3"><img src="/assets/images/email.png" alt="Github"></a></li>
+            <li style="padding-right: 0px;"><a href="#4"><img src="/assets/images/github.png" alt="Github"></a></li>
+          </ul>
+        </div>
+        <div class="card border-0 mentor-card text-center" style="margin-left: 43px;">
+          <img style="position: relative; z-index: 1;" class="rounded-circle mentor-img" src="/assets/images/mentor.svg"
+            alt="Mentor Name">
+          <div class="card-body">
+            <h4 class="card-title mentor-name">Flora Ojukwu</h4>
+            <label class="mentor-stack">Flutter, Jango, Android Developer</label>
+            <p class="card-text mentor-info">
+              "Hey! I am a team player and also open to freelance Jobs."</p>
+            <button type="button" class="btn btn-style btn-lg btn-block">Contact me</button>
+          </div>
+          <img src="/assets/images/card-footer.svg" alt="card-footer"
+            style="position: absolute; bottom: 0px; width: 100%; z-index: 1;">
+          <ul class="card-footer">
+            <li><a href="#1"><img src="/assets/images/twitter.svg" alt="Github"></a></li>
+            <li><a href="#2"><img src="/assets/images/linkedin.png" alt="Github"></a></li>
+            <li><a href="#3"><img src="/assets/images/email.png" alt="Github"></a></li>
+            <li style="padding-right: 0px;"><a href="#4"><img src="/assets/images/github.png" alt="Github"></a></li>
+          </ul>
+        </div>
+        <div class="card border-0 mentor-card text-center" style="margin-left: 43px;">
+          <img style="position: relative; z-index: 1;" class="rounded-circle mentor-img" src="/assets/images/mentor.svg"
+            alt="Mentor Name">
+          <div class="card-body">
+            <h4 class="card-title mentor-name">Flora Ojukwu</h4>
+            <label class="mentor-stack">Flutter, Jango, Android Developer</label>
+            <p class="card-text mentor-info">
+              "Hey! I am a team player and also open to freelance Jobs."</p>
+            <button type="button" class="btn btn-style btn-lg btn-block">Contact me</button>
+          </div>
+          <img src="/assets/images/card-footer.svg" alt="card-footer"
+            style="position: absolute; bottom: 0px; width: 100%; z-index: 1;">
+          <ul class="card-footer">
+            <li><a href="#1"><img src="/assets/images/twitter.svg" alt="Github"></a></li>
+            <li><a href="#2"><img src="/assets/images/linkedin.png" alt="Github"></a></li>
+            <li><a href="#3"><img src="/assets/images/email.png" alt="Github"></a></li>
+            <li style="padding-right: 0px;"><a href="#4"><img src="/assets/images/github.png" alt="Github"></a></li>
+          </ul>
+        </div>
+      </div>
+      <h3 class="mentor-h3">Designers</h3>
+      <div class="card-group">
+        <div class="card border-0 mentor-card text-center" style="margin-left: 43px;">
+          <img style="position: relative; z-index: 1;" class="card-img-top rounded-circle mentor-img"
+            src="/assets/images/mentor.png" alt="Mentor Name">
+          <div class="card-body">
+            <h4 class="card-title mentor-name">Flora Ojukwu</h4>
+            <label class="mentor-stack">Flutter, Jango, Android Developer</label>
+            <p class="card-text mentor-info">
+              "Hey! I am a team player and also open to freelance Jobs."</p>
+            <button type="button" class="btn btn-style btn-lg btn-block">Contact me</button>
+          </div>
+          <img src="/assets/images/card-footer.svg" alt="card-footer"
+            style="position: absolute; bottom: 0px; width: 100%; z-index: 1;">
+          <ul class="card-footer">
+            <li><a href="#1"><img src="/assets/images/twitter.svg" alt="Github"></a></li>
+            <li><a href="#2"><img src="/assets/images/linkedin.png" alt="Github"></a></li>
+            <li><a href="#3"><img src="/assets/images/email.png" alt="Github"></a></li>
+            <li style="padding-right: 0px;"><a href="#4"><img src="/assets/images/github.png" alt="Github"></a></li>
+          </ul>
+        </div>
+        <div class="card border-0 mentor-card text-center" style="margin-left: 43px;">
+          <img style="position: relative; z-index: 1;" class="rounded-circle mentor-img" src="/assets/images/mentor.svg"
+            alt="Mentor Name">
+          <div class="card-body">
+            <h4 class="card-title mentor-name">Flora Ojukwu</h4>
+            <label class="mentor-stack">Flutter, Jango, Android Developer</label>
+            <p class="card-text mentor-info">
+              "Hey! I am a team player and also open to freelance Jobs."</p>
+            <button type="button" class="btn btn-style btn-lg btn-block">Contact me</button>
+          </div>
+          <img src="/assets/images/card-footer.svg" alt="card-footer"
+            style="position: absolute; bottom: 0px; width: 100%; z-index: 1;">
+          <ul class="card-footer">
+            <li><a href="#1"><img src="/assets/images/twitter.svg" alt="Github"></a></li>
+            <li><a href="#2"><img src="/assets/images/linkedin.png" alt="Github"></a></li>
+            <li><a href="#3"><img src="/assets/images/email.png" alt="Github"></a></li>
+            <li style="padding-right: 0px;"><a href="#4"><img src="/assets/images/github.png" alt="Github"></a></li>
+          </ul>
+        </div>
+        <div class="card border-0 mentor-card text-center" style="margin-left: 43px;">
+          <img style="position: relative; z-index: 1;" class="rounded-circle mentor-img" src="/assets/images/mentor.svg"
+            alt="Mentor Name">
+          <div class="card-body">
+            <h4 class="card-title mentor-name">Flora Ojukwu</h4>
+            <label class="mentor-stack">Flutter, Jango, Android Developer</label>
+            <p class="card-text mentor-info">
+              "Hey! I am a team player and also open to freelance Jobs."</p>
+            <button type="button" class="btn btn-style btn-lg btn-block">Contact me</button>
+          </div>
+          <img src="/assets/images/card-footer.svg" alt="card-footer"
+            style="position: absolute; bottom: 0px; width: 100%; z-index: 1;">
+          <ul class="card-footer">
+            <li><a href="#1"><img src="/assets/images/twitter.svg" alt="Github"></a></li>
+            <li><a href="#2"><img src="/assets/images/linkedin.png" alt="Github"></a></li>
+            <li><a href="#3"><img src="/assets/images/email.png" alt="Github"></a></li>
+            <li style="padding-right: 0px;"><a href="#4"><img src="/assets/images/github.png" alt="Github"></a></li>
+          </ul>
+        </div>
+        <div class="card border-0 mentor-card text-center" style="margin-left: 43px;">
+          <img style="position: relative; z-index: 1;" class="rounded-circle mentor-img" src="/assets/images/mentor.svg"
+            alt="Mentor Name">
+          <div class="card-body">
+            <h4 class="card-title mentor-name">Flora Ojukwu</h4>
+            <label class="mentor-stack">Flutter, Jango, Android Developer</label>
+            <p class="card-text mentor-info">
+              "Hey! I am a team player and also open to freelance Jobs."</p>
+            <button type="button" class="btn btn-style btn-lg btn-block">Contact me</button>
+          </div>
+          <img src="/assets/images/card-footer.svg" alt="card-footer"
+            style="position: absolute; bottom: 0px; width: 100%; z-index: 1;">
+          <ul class="card-footer">
+            <li><a href="#1"><img src="/assets/images/twitter.svg" alt="Github"></a></li>
+            <li><a href="#2"><img src="/assets/images/linkedin.png" alt="Github"></a></li>
+            <li><a href="#3"><img src="/assets/images/email.png" alt="Github"></a></li>
+            <li style="padding-right: 0px;"><a href="#4"><img src="/assets/images/github.png" alt="Github"></a></li>
+          </ul>
+        </div>
+      </div>
+      \
+      <div class="text-center mentor-partners">
+        <p>PARTNERS</p>
+        <div class="row w-100">
+          <div class="col-12 col-sm-12 col-md-3">
+            <a href="#"><img src="/assets/images/oracle.svg" alt="Oracle"></a>
+          </div>
+          <div class="col-12 col-sm-12 col-md-3">
+            <a href="#"><img src="/assets/images/hotels-ng.svg" alt="Hotels.ng"></a>
+          </div>
+          <div class="col-12 col-sm-12 col-md-3">
+            <a href="#"><img src="/assets/images/oracle.svg" alt="Oracle"></a>
+          </div>
+          <div class="col-12 col-sm-12 col-md-3">
+            <a href="#"><img src="/assets/images/hotels-ng.svg" alt="Hotels.ng"></a>
+          </div>
+        </div>
+
+      </div>
+      </section>
+
+
+      <footer class="row w-100 px-5">
+        <div class="row  my-5 w-100">
+          <div class="col-12 col-sm-12 col-md-3 ">
+            <a class="navbar-brand" href="#"><img src="assets/images/logo.svg" alt="Code and Design" /></a>
+            <p class="py-3">Code & Design 2019. All right reserved.</p>
+          </div>
+          <div class="col-12 col-sm-12 col-md-2">
+            <h5 class="font-weight-bold">Register</h5>
+            <ul class="footer-list">
+              <li><a href="">Mentor</a></li>
+              <li><a href="">Learner</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-12 col-md-2">
+            <h5 class="font-weight-bold">About Us</h5>
+            <ul class="footer-list">
+              <li><a href="">Code and Design</a></li>
+              <li><a href="">Terms and Conditions</a></li>
+              <li><a href="">Privacy</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-sm-12 col-md-2 ">
+            <h5 class="font-weight-bold">Contact Us</h5>
+            <p class="py-2"><a href="">Donate to Code and Design</a></p>
+          </div>
+          <div class="col-9 col-sm-9 col-md-2">
+            <h5 class="font-weight-bold">Get Social</h5>
+            <div class="pb-2 footer-social"> <a href=""><i class="fab fa-facebook-f"></i></a>
+              <a href=""><i class="fab fa-instagram"></i></a>
+              <a href=""><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="py-2"><a href="" class="footer-info">codeanddesign@gmail.com</a></div>
+            <div class="py-2"><a href="" class="footer-info">+234 811 222 3333</a></div>
+          </div>
+          <div class="col-3 col-sm-3 col-md-1 d-flex align-items-end">
+            <a href="" class=" d-block mt-5 pt-4 pt-md-5"> <img src="./assets/images/msg.svg" alt="Contact us" /> </a>
+          </div>
+        </div>
+
+      </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
