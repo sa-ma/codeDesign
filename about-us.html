@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>About Us</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/e234a2afd2.js"></script>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!--Custom CSS  -->
+  <link rel="stylesheet" href="./assets/style/style.css">
+  <style>
+    .main-color {
+      background: #ECECFF;
+    }
+
+    div > h3 {
+      padding-top: 44px;
+      padding-bottom: 30px;
+      margin-bottom: 0px;
+    }
+
+    .team-img .footer-social a {
+      color: #1205A9 !important;
+    }
+
+    .team-img .footer-social a:hover {
+      color: #fff !important;
+    }
+
+    .team-img h5 {
+      font-family: 'Nunito';
+      font-style: normal;
+      font-weight: 900;
+      font-size: 18px;
+      line-height: 25px;
+      color: #1205A9;
+      margin: 0px;
+      padding-bottom: 2px;
+    }
+
+    .team-img p {
+      font-family: 'Nunito';
+      font-style: normal;
+      font-weight: 900;
+      font-size: 14px;
+      line-height: 19px;
+      color: rgba(18, 5, 169, 0.5);
+      margin-bottom: 17px;
+    }
+
+    section img {
+      position: absolute;
+      z-index: -1;
+    }
+
+    div h3.text-center {
+      font-family: 'Nunito';
+      font-style: normal;
+      font-weight: bold;
+      font-size: 36px;
+      line-height: 49px;
+      color: #1205A9;
+    }
+
+    .about-h5 {
+      font-family: 'Nunito';
+      font-style: normal;
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 33px;
+      display: flex;
+      align-items: center;
+      color: #1205A9;
+
+    }
+
+    .about-p {
+      font-family: 'Nunito';
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 25px;
+      color: rgba(0, 0, 0, 0.7);
+    }
+
+    section h3 {
+      font-family: 'Nunito';
+      font-style: normal;
+      font-weight: 900;
+      font-size: 36px;
+      line-height: 49px;
+      color: #F2F2F2;
+      padding-top: 104px;
+      padding-bottom: 17px;
+    }
+
+    section h4 {
+      font-family: 'Nunito';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 25px;
+      color: #FFFFFF;
+      padding-bottom: 53px;
+      margin-bottom: 0;
+      padding-top: 0;
+    }
+
+    footer {
+      background: #fff;
+    }
+
+    .about-middle h3 {
+      font-family: 'Nunito';
+      font-style: normal;
+      font-weight: 900;
+      font-size: 36px;
+      line-height: 49px;
+      color: #1205A9;
+    }
+
+    .about-middle p {
+      font-family: 'Nunito';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 25px;
+      color: #1205A9;
+    }
+
+    .about-middle img {
+      position: absolute;
+      z-index: -1;
+    }
+
+    div.text-center>h1 {
+      padding-top: 114px;
+      font-family: 'Nunito';
+      font-style: normal;
+      font-weight: 900;
+      font-size: 36px;
+      line-height: 49px;
+      color: #F2F2F2;
+    }
+
+    div.text-center>.p {
+      font-family: 'Nunito';
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 25px;
+      color: #F2F2F2;
+      margin-bottom: 180px;
+    }
+
+    .row {
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+  </style>
+</head>
+
+<body class="main-color">
+  <div class="container-fluid p-0">
+    <header class="top-header w-100">
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#"><img src="assets/images/logo.svg" alt="Code and Design" /></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+        </button>
+        <div class="flex-xl-row justify-content-end collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <!-- <li class="nav-item ">
+                  <a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                </li> -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Join
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Mentor</a>
+                <a class="dropdown-item" href="#">Learner</a>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">Donate</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Faq's</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <div class="w-100">
+      <img style="position: absolute; z-index: -1;" src="./assets/images/top-background.svg" alt="top-background">
+      <div class="text-center">
+        <h1>About Us</h1>
+        <p class="p">Everything you need to know at one glance</p>
+      </div>
+      <h3 class="text-center">Products by Code and Design Graduates</h3>
+      <div class="card-group" style="padding-bottom: 74px;">
+        <div class="card" style="margin-left: 114px; margin-right: 38px; border: none;">
+          <div class="card-body">
+            <svg style="float: left; margin: 5px; margin-top: 40px; vertical-align:top;" width="50" height="50"
+              viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0)">
+                <path
+                  d="M7.29889 32.0389C7.01584 32.6035 7.12608 33.2859 7.57202 33.7322L7.93022 34.0904C8.96515 32.864 10.1714 31.5331 11.6343 30.0705C11.7377 29.9671 11.8441 29.9171 11.9479 29.8218L9.6434 27.5169C8.30368 29.94 7.52243 31.5956 7.29889 32.0389Z"
+                  fill="#1205A9" />
+                <path
+                  d="M19.9207 38.3568C18.4543 39.8232 17.1268 41.0316 15.9072 42.0673L16.3925 42.5526C16.8426 43.0027 17.5315 43.111 18.098 42.8196C18.8568 42.4286 20.05 41.8671 22.5829 40.4564L20.1698 38.0432C20.0744 38.1474 20.0244 38.2534 19.9207 38.3568Z"
+                  fill="#1205A9" />
+                <path
+                  d="M19.14 30.8533C18.0815 29.7947 15.1045 30.7438 13.706 32.1419C9.02766 36.8202 6.9147 40.1371 5.96598 42.0956C5.69399 42.6567 5.80729 43.3285 6.24827 43.7695C6.69001 44.2116 7.36292 44.3237 7.92445 44.0517C9.83904 43.1221 13.1155 41.0191 17.8495 36.2854C19.3872 34.7469 20.146 31.8596 19.1412 30.8544L19.14 30.8533Z"
+                  fill="#1205A9" />
+                <path
+                  d="M4.57246 19.503L0.42932 23.6462C-0.0391248 24.1146 -0.135255 24.8398 0.196624 25.4143C0.520491 25.9811 1.19874 26.2699 1.84419 26.0971C4.08342 25.4967 6.05371 25.243 7.38046 25.5833C9.26797 22.2275 11.2962 19.1383 13.4443 16.3323C12.2019 15.5357 8.0961 15.9794 4.57246 19.503Z"
+                  fill="#1205A9" />
+                <path
+                  d="M24.7944 49.8428C25.3586 50.1282 26.0418 50.0179 26.4885 49.5708L30.632 45.4277C33.8398 42.2192 34.4044 38.0795 33.6765 36.7668C30.547 39.1254 27.3766 41.1171 24.4187 42.7845C24.6227 43.9369 24.4869 45.055 24.0044 48.3204C23.9102 48.9525 24.2367 49.564 24.7944 49.8428Z"
+                  fill="#1205A9" />
+                <path
+                  d="M29.082 14.6942C27.3688 16.4078 27.3688 19.1952 29.082 20.9087C30.7956 22.6223 33.5833 22.6223 35.2969 20.9087C37.0105 19.1952 37.0105 16.4078 35.2969 14.6942C33.5833 12.9807 30.7956 12.9807 29.082 14.6942Z"
+                  fill="#1205A9" />
+                <path
+                  d="M49.9137 1.42898C49.8611 0.70457 49.2843 0.131984 48.5622 0.0778151C44.9645 -0.193028 41.381 0.249477 37.8684 1.3237C38.1328 3.73687 39.3809 6.34842 41.5118 8.47931C43.6683 10.6354 46.3508 11.8832 48.8071 12.1166C49.7531 8.80127 50.2017 5.25055 49.9137 1.42898Z"
+                  fill="#1205A9" />
+                <path
+                  d="M39.4406 10.5511C37.003 8.11348 35.5145 5.1899 35.0369 2.34337C26.2406 5.95093 17.82 13.829 11.166 24.8962L14.4718 28.2021C16.7305 27.285 19.4725 27.0428 21.2116 28.7815C22.953 30.5233 22.7062 33.2642 21.7896 35.5198L25.2041 38.9343C33.7193 33.8024 43.6329 25.7172 47.8485 14.9601C44.9326 14.5195 41.9178 13.0283 39.4406 10.5511ZM37.3684 22.9805C34.5131 25.8358 29.8664 25.8358 27.0107 22.9805C24.1551 20.1248 24.1551 15.4778 27.0107 12.6225C29.8664 9.76715 34.5131 9.76715 37.3684 12.6225C40.2241 15.4781 40.2241 20.1248 37.3684 22.9805Z"
+                  fill="#1205A9" />
+              </g>
+              <defs>
+                <clipPath id="clip0">
+                  <rect width="50" height="50" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+            <div style="padding-left: 15%;">
+              <h5 class="card-title about-h5">Supercharging Home</h5>
+              <p class="card-text about-p">At Code and Design we make sure Interns get the needed help in scaling
+                through the most difficult task he/she can face in the real worldAt Code and Design we make sure Interns
+                get the needed help in scaling through.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card" style="margin-right: 114px; margin-left: 38px; border: none;">
+          <div class="card-body">
+            <svg style="float: left; margin: 5px; margin-top: 40px; vertical-align:top;" width="50" height="50"
+              viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <g clip-path="url(#clip0)">
+                <path
+                  d="M0.732422 13.9095C1.13678 13.9095 1.46446 13.5815 1.46446 13.1771V1.46446H13.1771C13.5815 1.46446 13.9095 1.13678 13.9095 0.732422C13.9095 0.328064 13.5815 0 13.1771 0H0.732422C0.328064 0 0 0.328064 0 0.732422V13.1771C0 13.5815 0.327683 13.9095 0.732422 13.9095Z"
+                  fill="#1205A9" />
+                <path
+                  d="M13.1771 48.5355H1.46446V36.8229C1.46446 36.4185 1.13678 36.0905 0.732422 36.0905C0.328064 36.0905 0 36.4185 0 36.8229V49.2676C0 49.6719 0.327683 50 0.732422 50H13.1771C13.5815 50 13.9095 49.6719 13.9095 49.2676C13.9095 48.8632 13.5815 48.5355 13.1771 48.5355Z"
+                  fill="#1205A9" />
+                <path
+                  d="M49.1708 36.0905C48.7664 36.0905 48.4387 36.4185 48.4387 36.8229V48.5355H36.7261C36.3217 48.5355 35.9937 48.8632 35.9937 49.2676C35.9937 49.6719 36.3217 50 36.7261 50H49.1708C49.5755 50 49.9032 49.6719 49.9032 49.2676V36.8229C49.9032 36.4185 49.5755 36.0905 49.1708 36.0905Z"
+                  fill="#1205A9" />
+                <path
+                  d="M49.1708 0H36.7261C36.3217 0 35.9937 0.328064 35.9937 0.732422C35.9937 1.13678 36.3217 1.46446 36.7261 1.46446H48.4387V13.1771C48.4387 13.5815 48.7664 13.9095 49.1708 13.9095C49.5755 13.9095 49.9032 13.5815 49.9032 13.1771V0.732422C49.9032 0.328064 49.5755 0 49.1708 0Z"
+                  fill="#1205A9" />
+                <path
+                  d="M10.9357 30.2101C10.8853 29.9091 10.8357 29.5891 10.7884 29.2591C10.7312 28.8586 10.3593 28.5808 9.95989 28.6377C9.55934 28.6953 9.28125 29.0665 9.33885 29.4666C9.38768 29.8084 9.43918 30.1399 9.49144 30.452C9.55133 30.8098 9.86147 31.0634 10.2128 31.0634C10.2529 31.0634 10.2937 31.06 10.3345 31.0531C10.7335 30.9864 11.0024 30.6087 10.9357 30.2101Z"
+                  fill="#1205A9" />
+                <path
+                  d="M11.8275 37.1406C11.9656 37.3672 12.2067 37.4927 12.4539 37.4927C12.5836 37.4927 12.7148 37.458 12.8338 37.3859C13.1794 37.1757 13.2893 36.7256 13.0791 36.3796C12.9067 36.0958 12.7541 35.8295 12.6129 35.5652C12.4222 35.2085 11.9789 35.0739 11.6219 35.2646C11.2652 35.4549 11.1305 35.8986 11.3213 36.2556C11.475 36.5436 11.6409 36.8336 11.8275 37.1406Z"
+                  fill="#1205A9" />
+                <path
+                  d="M40.4072 30.4802C40.4594 30.1697 40.5109 29.8382 40.5601 29.4952C40.6181 29.0951 40.3404 28.7235 39.9399 28.6659C39.5397 28.6087 39.1686 28.886 39.111 29.2862C39.0629 29.6181 39.0133 29.9377 38.9626 30.2372C38.8958 30.6362 39.1647 31.0139 39.5634 31.0806C39.6046 31.0879 39.6454 31.0909 39.6858 31.0909C40.0372 31.0909 40.3469 30.838 40.4072 30.4802Z"
+                  fill="#1205A9" />
+                <path
+                  d="M37.278 35.5881C37.1361 35.8528 36.9831 36.1191 36.8103 36.4017C36.6001 36.747 36.7092 37.1975 37.0545 37.4081C37.1735 37.4809 37.3051 37.5153 37.4352 37.5153C37.682 37.5153 37.9231 37.3905 38.0608 37.1643C38.2477 36.858 38.4136 36.5688 38.5685 36.2804C38.7596 35.9241 38.6257 35.4801 38.2694 35.289C37.9135 35.0975 37.4691 35.2314 37.278 35.5881Z"
+                  fill="#1205A9" />
+                <path
+                  d="M10.3066 33.8947C10.4088 34.2018 10.6949 34.3964 11.0016 34.3964C11.0783 34.3964 11.1561 34.3842 11.2324 34.359C11.6162 34.2316 11.8241 33.8169 11.6967 33.4332C11.6021 33.1478 11.5117 32.8461 11.4285 32.5356C11.3236 32.1449 10.9219 31.9134 10.5313 32.0187C10.1407 32.1236 9.90911 32.5253 10.014 32.9159C10.1048 33.2531 10.2032 33.5827 10.3066 33.8947Z"
+                  fill="#1205A9" />
+                <path
+                  d="M38.8927 34.4227C39.1991 34.4227 39.4848 34.2285 39.587 33.9218C39.6912 33.6109 39.7903 33.2813 39.8815 32.9437C39.9872 32.5531 39.7564 32.151 39.3658 32.0454C38.9759 31.9401 38.5735 32.1709 38.4678 32.5611C38.3839 32.872 38.2931 33.1734 38.1981 33.4579C38.0699 33.8417 38.2771 34.2564 38.6608 34.3845C38.7375 34.4105 38.8157 34.4227 38.8927 34.4227Z"
+                  fill="#1205A9" />
+                <path
+                  d="M28.5971 45.2702C28.3365 45.3575 28.068 45.4193 27.7765 45.4594C27.376 45.5143 27.096 45.8839 27.1509 46.2845C27.2017 46.6515 27.5156 46.9173 27.8757 46.9173C27.9089 46.9173 27.9425 46.915 27.9764 46.9105C28.3587 46.8578 28.7138 46.7754 29.0617 46.6591C29.4455 46.5309 29.6522 46.1159 29.5241 45.7325C29.3959 45.3487 28.9805 45.142 28.5971 45.2702Z"
+                  fill="#1205A9" />
+                <path
+                  d="M34.4396 40.9649C34.134 40.7001 33.6713 40.733 33.4065 41.0389C33.2021 41.2746 32.9869 41.5173 32.7672 41.7599C32.4956 42.0597 32.5181 42.5228 32.8179 42.7944C32.9583 42.9214 33.1342 42.984 33.3096 42.984C33.5092 42.984 33.7079 42.9031 33.8521 42.7437C34.0794 42.4931 34.3018 42.242 34.5136 41.9979C34.7783 41.692 34.7451 41.2296 34.4396 40.9649Z"
+                  fill="#1205A9" />
+                <path
+                  d="M31.1024 43.5108C30.8537 43.7595 30.6324 43.969 30.4253 44.1505C30.1212 44.4172 30.0907 44.8799 30.3577 45.1839C30.5023 45.3487 30.7049 45.4334 30.9086 45.4334C31.0799 45.4334 31.2519 45.3735 31.3911 45.2515C31.6223 45.0485 31.8672 44.8177 32.1388 44.5457C32.4245 44.2593 32.4242 43.7958 32.1377 43.5101C31.852 43.224 31.3881 43.2243 31.1024 43.5108Z"
+                  fill="#1205A9" />
+                <path
+                  d="M25.4289 45.5124H24.4485C24.0437 45.5124 23.7161 45.8401 23.7161 46.2444C23.7161 46.6492 24.0437 46.9769 24.4485 46.9769H25.4289C25.8332 46.9769 26.1609 46.6492 26.1609 46.2444C26.1609 45.8401 25.8332 45.5124 25.4289 45.5124Z"
+                  fill="#1205A9" />
+                <path
+                  d="M36.0886 40.0516C36.2164 39.8808 36.3419 39.7091 36.4613 39.5409C36.5338 39.4394 36.6044 39.3394 36.6742 39.2406C36.9073 38.9103 36.8283 38.4533 36.498 38.2202C36.1672 37.9871 35.7106 38.0661 35.4771 38.3965C35.4089 38.4937 35.3391 38.5922 35.2681 38.6917C35.1548 38.8508 35.0366 39.0133 34.9156 39.1747C34.6734 39.4989 34.7398 39.9574 35.0636 40.1997C35.1952 40.2981 35.349 40.3454 35.5016 40.3454C35.7247 40.3458 35.9448 40.2443 36.0886 40.0516Z"
+                  fill="#1205A9" />
+                <path
+                  d="M16.4795 41.0187C16.2147 40.7131 15.752 40.6796 15.4465 40.9443C15.1405 41.209 15.1073 41.6714 15.3721 41.9773C15.5842 42.2226 15.8066 42.4736 16.0332 42.7235C16.1773 42.8833 16.3765 42.9646 16.576 42.9646C16.7511 42.9646 16.9273 42.902 17.0673 42.775C17.3671 42.5037 17.39 42.0406 17.1184 41.7408C16.8999 41.499 16.6847 41.256 16.4795 41.0187Z"
+                  fill="#1205A9" />
+                <path
+                  d="M14.6355 38.6921C14.5592 38.5845 14.4841 38.4789 14.4105 38.3743C14.177 38.044 13.72 37.9654 13.3897 38.1989C13.0593 38.4319 12.9807 38.8889 13.2142 39.2193C13.2886 39.3249 13.3641 39.4318 13.4415 39.5405C13.5564 39.7018 13.6761 39.8663 13.7982 40.0299C13.942 40.2225 14.1625 40.3244 14.3857 40.3244C14.5383 40.3244 14.6916 40.2767 14.8232 40.1787C15.1471 39.9368 15.2138 39.4779 14.972 39.1537C14.8564 38.9992 14.7435 38.8439 14.6355 38.6921Z"
+                  fill="#1205A9" />
+                <path
+                  d="M22.104 45.4563C21.8129 45.4147 21.5451 45.3514 21.285 45.2629C20.902 45.1324 20.4858 45.3373 20.3553 45.7199C20.2252 46.1029 20.4297 46.5191 20.8127 46.6495C21.1602 46.7678 21.5154 46.8517 21.8976 46.9063C21.9327 46.9112 21.9674 46.9135 22.0018 46.9135C22.3603 46.9135 22.6739 46.6495 22.7258 46.2845C22.7826 45.8839 22.5045 45.5131 22.104 45.4563Z"
+                  fill="#1205A9" />
+                <path
+                  d="M19.4595 44.1341C19.2528 43.9522 19.0315 43.7424 18.7828 43.4925C18.4975 43.206 18.034 43.2049 17.7471 43.4906C17.4606 43.7759 17.4599 44.2394 17.7452 44.5263C18.0164 44.7987 18.2606 45.0298 18.491 45.2328C18.6302 45.3556 18.8027 45.4159 18.9747 45.4159C19.1776 45.4159 19.3798 45.3319 19.5244 45.1675C19.7918 44.8643 19.7628 44.4015 19.4595 44.1341Z"
+                  fill="#1205A9" />
+                <path
+                  d="M24.9515 3.02238C19.4233 3.02238 15.2454 4.67834 12.5347 7.94487C12.2764 8.25615 12.3195 8.71773 12.6304 8.97598C12.9417 9.23424 13.4033 9.19113 13.6619 8.87985C16.0808 5.96504 19.8795 4.48685 24.9515 4.48685C34.2117 4.48685 39.0178 9.27162 39.6446 19.1147C39.6694 19.5026 39.9914 19.8006 40.3747 19.8006C40.3904 19.8006 40.406 19.8002 40.4217 19.799C40.8253 19.7731 41.132 19.4252 41.106 19.0216C40.43 8.4053 34.9949 3.02238 24.9515 3.02238Z"
+                  fill="#1205A9" />
+                <path
+                  d="M40.4538 21.2738C40.0449 21.2669 39.7172 21.5916 39.7115 21.9959C39.6958 23.1575 39.6306 24.4045 39.5177 25.7114H10.3856C9.83971 19.4061 10.4211 14.6534 12.1587 11.1977C12.3402 10.836 12.1945 10.3958 11.8333 10.2142C11.472 10.0327 11.0318 10.1784 10.8498 10.5396C8.99971 14.22 8.36571 19.1898 8.91617 25.7114H4.61548C4.21074 25.7114 3.88306 26.0395 3.88306 26.4439C3.88306 26.8482 4.21074 27.1763 4.61548 27.1763H9.07715C9.17976 27.4635 9.45366 27.6619 9.76532 27.6619C9.7905 27.6619 9.81606 27.6608 9.84123 27.6581C10.1308 27.6283 10.3616 27.4326 10.4535 27.1763H39.4494C39.5417 27.4326 39.7725 27.6283 40.062 27.6581C40.0876 27.6608 40.1128 27.6619 40.1379 27.6619C40.4496 27.6619 40.7235 27.4635 40.8257 27.1763H45.2878C45.6925 27.1763 46.0202 26.8482 46.0202 26.4439C46.0202 26.0395 45.6925 25.7114 45.2878 25.7114H40.9871C41.0962 24.4152 41.1603 23.1747 41.1759 22.0158C41.1816 21.6114 40.8582 21.2791 40.4538 21.2738Z"
+                  fill="#1205A9" />
+              </g>
+              <defs>
+                <clipPath id="clip0">
+                  <rect width="50" height="50" fill="white" />
+                </clipPath>
+              </defs>
+            </svg>
+            <div style="padding-left: 15%;">
+              <h5 class="card-title about-h5">Facial Recognition App</h5>
+              <p class="card-text about-p">At Code and Design we make sure Interns get the needed help in scaling
+                through the most difficult task he/she can face in the real worldAt Code and Design we make sure Interns
+                get the needed help in scaling through.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="w-100">
+    <img src="./assets/images/middle-background.svg" alt="middle-background">
+    <div class="text-center">
+      <h3>The Core Team</h3>
+      <h4>We are a dedicated team, Passionate, skilled, transparent and human centered</h4>
+    </div>
+  </section>
+  <div class="card-group team-img container text-center">
+    <div class="card shadow" style="margin-right: 5px; border: none;">
+      <img class="card-img-top" src="./assets/images/Team.png" alt="Team">
+      <div class="card-body">
+        <h5 class="card-title">Karl Drogo</h5>
+        <p class="card-text">Organizer</p>
+        <div class="pb-2 footer-social"> <a href=""><i class="fab fa-facebook-f"></i></a>
+          <a href=""><i class="fab fa-instagram"></i></a>
+          <a href=""><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="card shadow" style="margin-right: 5px; border: none;">
+      <img class="card-img-top" src="./assets/images/Team.png" alt="Team">
+      <div class="card-body">
+        <h5 class="card-title">John Doe</h5>
+        <p class="card-text">Design Lead</p>
+        <div class="pb-2 footer-social"> <a href=""><i class="fab fa-facebook-f"></i></a>
+          <a href=""><i class="fab fa-instagram"></i></a>
+          <a href=""><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="card shadow" style="margin-right: 5px; border: none;">
+      <img class="card-img-top" src="./assets/images/Team.png" alt="Team">
+      <div class="card-body">
+        <h5 class="card-title">Henry Ojogo</h5>
+        <p class="card-text">Mobile Dev Lead</p>
+        <div class="pb-2 footer-social"> <a href=""><i class="fab fa-facebook-f"></i></a>
+          <a href=""><i class="fab fa-instagram"></i></a>
+          <a href=""><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="card shadow" style="border: none;">
+      <img class="card-img-top" src="./assets/images/Team.png" alt="Team">
+      <div class="card-body">
+        <h5 class="card-title">Henry Ojogo</h5>
+        <p class="card-text">Web Dev Lead</p>
+        <div class="pb-2 footer-social"> <a href=""><i class="fab fa-facebook-f"></i></a>
+          <a href=""><i class="fab fa-instagram"></i></a>
+          <a href=""><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="about-middle">
+    <img src="./assets/images/bottom-background.svg" alt="">
+    <div class="text-center">
+      <h3>Code & Design</h3>
+      <p>Launched in October 2018</p>
+      <div class="row" style="display: block;">
+        <img style="padding-right: 30px;" src="./assets/images/middle-line.png" alt="">
+        <img style="padding-left: 50px; padding-top: 40px; float: right;" src="./assets/images/sm-card-1.png" alt="">
+      </div>
+      <div class="row" style="display: block; margin-top: 250px;">
+        <img style="padding-right: 30px;" src="./assets/images/middle-line.png" alt="">
+        <img style="padding-top: 40px; float: left; left: 260px;" src="./assets/images/sm-card-2.png" alt="">
+      </div>
+      <div class="row" style="display: block; margin-top: 480px;">
+        <img style="padding-right: 30px;" src="./assets/images/middle-line.png" alt="">
+        <img style="padding-left: 50px; padding-top: 40px; float: right;" src="./assets/images/sm-card-1.png" alt="">
+      </div>
+      <div class="row" style="display: block; margin-top: 715px;">
+        <img style="padding-right: 30px;" src="./assets/images/middle-line.png" alt="">
+        <img style="padding-top: 40px; float: left; left: 260px;" src="./assets/images/sm-card-2.png" alt="">
+      </div>
+      <div class="row" style="display: block; margin-top: 948px; padding-bottom: 50px;">
+        <img style="padding-right: 30px;" src="./assets/images/middle-circle.png" alt="">
+      </div>
+      <!-- <img src="./assets/images/middle-line.svg" alt="">
+          <img src="./assets/images/sm-card-1.svg" alt=""> -->
+    </div>
+  </div>
+
+  </div>
+  <footer class="row w-100 px-5" style="margin-right: 0px;">
+    <div class="row  my-5 w-100">
+      <div class="col-12 col-sm-12 col-md-3 ">
+        <a class="navbar-brand" href="#"><img src="assets/images/logo.svg" alt="Code and Design" /></a>
+        <p class="py-3">Code & Design 2019. All right reserved.</p>
+      </div>
+      <div class="col-12 col-sm-12 col-md-2">
+        <h5 class="font-weight-bold">Register</h5>
+        <ul class="footer-list">
+          <li><a href="">Mentor</a></li>
+          <li><a href="">Learner</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-sm-12 col-md-2">
+        <h5 class="font-weight-bold">About Us</h5>
+        <ul class="footer-list">
+          <li><a href="">Code and Design</a></li>
+          <li><a href="">Terms and Conditions</a></li>
+          <li><a href="">Privacy</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-sm-12 col-md-2 ">
+        <h5 class="font-weight-bold">Contact Us</h5>
+        <p class="py-2"><a href="">Donate to Code and Design</a></p>
+      </div>
+      <div class="col-9 col-sm-9 col-md-2">
+        <h5 class="font-weight-bold">Get Social</h5>
+        <div class="pb-2 footer-social"> <a href=""><i class="fab fa-facebook-f"></i></a>
+          <a href=""><i class="fab fa-instagram"></i></a>
+          <a href=""><i class="fab fa-twitter"></i></a>
+        </div>
+        <div class="py-2"><a href="" class="footer-info">codeanddesign@gmail.com</a></div>
+        <div class="py-2"><a href="" class="footer-info">+234 811 222 3333</a></div>
+      </div>
+      <div class="col-3 col-sm-3 col-md-1 d-flex align-items-end">
+        <a href="" class=" d-block mt-5 pt-4 pt-md-5"> <img src="./assets/images/msg.svg" alt="Contact us" /> </a>
+      </div>
+    </div>
+
+  </footer>
+  </div>
+  <!-- Bootstrap Scripts -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
