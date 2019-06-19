@@ -82,22 +82,27 @@
       </div>
       <div class="col-12 d-flex col-md-6 justify-content-center">
         <div class="card w-100 px-4 justify-content-center">
-          <form class="contact-form">
+          <form class="contact-form" action="https://formspree.io/coddeanddesign@gmail.com" method="POST">
             <h1 class="text-center">Send us a message</h1>
             <div class="form-group">
-              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your Name">
+              <input type="hidden" class="form-control" name="class" value="Contact">
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Phone Number">
+              <input type="text" class="form-control" id="exampleFormControlInput1" name="name" placeholder="Your Name">
             </div>
             <div class="form-group">
-              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your Email Address">
+              <input type="text" class="form-control" id="exampleFormControlInput1" name="phone"
+                placeholder="Phone Number">
             </div>
             <div class="form-group">
-              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+              <input type="email" class="form-control" id="exampleFormControlInput1" name="email"
+                placeholder="Your Email Address">
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" name="message" id="exampleFormControlTextarea1" rows="3"
                 placeholder="Your Message"></textarea>
             </div>
-            <button class="btn btn-large button btn-join">GET IN TOUCH</button>
+            <button type="submit" class="btn btn-large button btn-join">GET IN TOUCH</button>
           </form>
         </div>
 
